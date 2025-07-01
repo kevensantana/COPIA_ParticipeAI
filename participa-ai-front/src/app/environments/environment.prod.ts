@@ -1,7 +1,12 @@
 
 //Ambiente de produção
-export const environmentProd= {
+// export const environmentProd= {
+//   production: true,
+//   apiBaseUrl: '',
+//   realApiUrl: 'https://api.participe.ai'
+// };
+
+export const environment = {
   production: true,
-  apiBaseUrl: '',
-  realApiUrl: 'https://api.participe.ai'
+  apiBaseUrl: 'https://mock-api-rose-two.vercel.app/api',
 };
